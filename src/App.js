@@ -9,7 +9,7 @@ async function clicked() {
 ReactDOM.render(
   <div>
     <button onClick={clicked}>Click Me</button>
-    <h1>Hello from React</h1>
+    <h1>Hello from React. Workspace branch</h1>
   </div>,
   document.getElementById("root")
 );
