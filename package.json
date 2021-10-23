@@ -83,6 +83,8 @@
     "style-loader": "^3.0.0"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "@reduxjs/toolkit": "^1.6.2",
+    "electron-squirrel-startup": "^1.0.0",
+    "react-redux": "^7.2.5"
   }
 }
