@@ -85,6 +85,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.2",
     "electron-squirrel-startup": "^1.0.0",
-    "react-redux": "^7.2.5"
+    "react-redux": "^7.2.5",
+    "styled-components": "^5.3.3"
   }
 }
