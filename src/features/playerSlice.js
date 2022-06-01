@@ -1,13 +1,21 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-const initialState = {};
+const initialState = {
+  music: [],
+  playList: [],
+  nowPlaying: '',
+};
 
 export const playerSlice = createSlice({
   name: 'player',
   initialState,
-  reducers: {},
+  reducers: {
+    logAppName() {
+      console.log('Moon Player');
+    },
+  },
 });
 
-export const {} = playerSlice.actions;
+export const { logAppName } = playerSlice.actions;
 
 export default playerSlice.reducer;
